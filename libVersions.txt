@@ -1,0 +1,63 @@
+lib_gvrfhybrid :
+commit abe81efa9c271c07a4ece726d5bc4987ca01b55b
+Author: NolaDonato <nola.donato@samsung.com>
+Date:   Fri Oct 21 18:19:39 2016 -0700
+
+    Adding support for embedded textures (#890)
+    
+    * Adding support for embedded textures
+    
+    FBX files may have texture data embedded in them. ASSIMP supports this but GearVRF did not. This patch adds support for embedded textures. It also fixes missing textures by supplying a small 16x16 whit
+    
+    * hiding texture cache
+    
+    As Mihail suggested I should hide the texture cache. I have moved all
+    the GVRContext texture loading routines to GVRAssetLoader. For
+    compatibility had to change some of the async callbacks.
+    Expect further reform in texture loading but not before the next
+    release. This patch addresses only a small part of the problem.
+    
+    * backed out stupid change
+    
+    * changed deprecated texture load APIs to use new ones
+    
+    * Make GVRAndroidResource and GVRContext.loadMesh backwards compatible
+    
+    GearVRf was throwing some IOExceptions on the floor and not passing them
+    on. I changed loadMesh to pass on the exception but this broke some
+    samples. Now loadMesh returns null if there is an exception.
+    GVRAndroidResource says it throws an exception but it really doesn't. I
+    took out the "throw" but this broke samples so I put it back.
+    
+    * clear texture cache on restart
+    
+    and restore gradle properties
+    
+    * reset default texture
+    
+    * fix issue with cubemap shader
+    
+    * fixed problem with cubemap texture loading
+    
+    this fixes the issue with gvr-cubemap
+    
+    * fixed bug in GVRCylinderSceneObject
+    
+    It was not using the material passed in
+    
+    * fixed regression in cubemap reflection shader
+
+lib_gvrfpure :
+
+commit bd1306566ec591eae91c0a39ecceb0ccb464fd8a
+Merge: 2121d3d 05cb461
+Author: thomasflynn <tom.flynn@samsung.com>
+Date:   Tue Oct 18 18:37:07 2016 -0700
+
+    Merge pull request #360 from liaxim/useAndroidWearTouchpad
+    
+    Recognize and use the new useAndroidWearTouchpad setting
+
+
+
+
