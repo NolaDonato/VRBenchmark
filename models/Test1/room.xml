@@ -1,0 +1,531 @@
+<?xml version="1.0" ?>
+<catalog>
+	<Version app="modo" build="109580" xml_file_format="0">1001</Version>
+	<useRootPath>1</useRootPath>
+	<RootPath>D:\projects\VR_APP_Dominos\Dominos\Assets\Art\</RootPath>
+	<Material ID="Unity Material (6)" ptag="wood_shelf" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="1.0, 1.0, 1.0">
+			<texture filename="satin finished walnut.jpg" name="satin finished walnut (2) (Image)" uvindex="0" uvname="Texture" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material (7)" ptag="wall" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0">
+			<texture filename="concrete_normal.png" name="concrete_normal (Image)" uvindex="0" uvname="Texture" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="1.0, 1.0, 1.0">
+			<texture filename="concrete_basecolor.png" name="concrete_basecolor (Image)" uvindex="0" uvname="Texture" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5">
+			<texture filename="concrete_roughness.png" name="concrete_roughness (Image)" uvindex="0" uvname="Texture" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0">
+			<texture filename="concrete_metallic.png" name="concrete_metallic (Image)" uvindex="0" uvname="Texture" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material" ptag="beam1" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="1.0, 1.0, 1.0">
+			<texture filename="polished mahogany.jpg" name="polished mahogany (2) (Image)" uvindex="0" uvname="Texture" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material (19)" ptag="Baseboards" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="0.14240506291389465, 0.013179517351090908, 0.0"/>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material (14)" ptag="planter" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="0.0284810122102499, 0.0284810122102499, 0.0284810122102499"/>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material (22)" ptag="windowsill" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="0.15189872682094574, 0.004898577928543091, 0.0"/>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material (9)" ptag="floor" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0">
+			<texture filename="planks_004_bitmap_Normal.png" name="planks_004_bitmap_Normal (Image)" uvindex="0" uvname="Texture" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="1.0, 1.0, 1.0">
+			<texture filename="planks_004_bitmap_Diffuse.png" name="planks_004_bitmap_Diffuse (Image)" uvindex="0" uvname="Texture" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5">
+			<texture filename="planks_004_bitmap_Roughness.png" name="planks_004_bitmap_Roughness (Image)" uvindex="0" uvname="Texture" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material (28)" ptag="ui_editmenu" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="1.0, 1.0, 1.0">
+			<texture filename="ui_editmenu.png" name="ui_editmenu (Image)" uvindex="0" uvname="Texture" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material (12)" ptag="lamp" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.8417721390724182, 0.07774057239294052, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="1.0, 0.2640511989593506, 0.0"/>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material (5)" ptag="brick" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0">
+			<texture filename="brick_painted_city_brick_Normal.png" name="brick_painted_city_brick_Normal (Image)" uvindex="0" uvname="Texture" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.0"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="1.0, 1.0, 1.0">
+			<texture filename="brick_painted_city_brick_Diffuse.png" name="brick_painted_city_brick_Diffuse (Image)" uvindex="0" uvname="Texture" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.0"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0">
+			<texture filename="brick_painted_city_brick_Roughness.png" name="brick_painted_city_brick_Roughness (Image)" uvindex="0" uvname="Texture" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material (18)" ptag="PIPES" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="0.06012658402323723, 0.03904655575752258, 0.029300006106495857"/>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material (2)" ptag="METAL" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0">
+			<texture filename="metal_normal.png" name="metal_normal (Image)" uvindex="0" uvname="Texture" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="1.0, 1.0, 1.0">
+			<texture filename="metal_basecolor.png" name="metal_basecolor (Image)" uvindex="0" uvname="Texture" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5">
+			<texture filename="metal_roughness.png" name="metal_roughness (Image)" uvindex="0" uvname="Texture" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0">
+			<texture filename="metal_metallic.png" name="metal_metallic (Image)" uvindex="0" uvname="Texture" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material (20)" ptag="glass" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="1.0, 1.0, 1.0"/>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="0.10000000149"/>
+		<property name="Smoothness" value="0.5"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material (25)" ptag="ui_colorpicker" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="1.0, 1.0, 1.0">
+			<texture filename="ui_colorpicker.png" name="ui_colorpicker (2) (Image)" uvindex="0" uvname="Texture" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material (21)" ptag="Grass" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="0.09804625809192657, 0.32594937086105347, 0.0"/>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material (13)" ptag="planter2" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="0.20886075496673584, 0.077510304749012, 0.0"/>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material (23)" ptag="panel" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="0.6848608255386353, 0.6650623083114624, 0.9082278609275818"/>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material (24)" ptag="ui_play" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="1.0, 1.0, 1.0">
+			<texture filename="ui_play.png" name="ui_play (2) (Image)" uvindex="0" uvname="Texture" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material (11)" ptag="light" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="1.0, 1.0, 1.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="1.0, 1.0, 1.0"/>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.0"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material (15)" ptag="darkmetal" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="0.03887288272380829, 0.040114615112543106, 0.05379746854305267"/>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material (27)" ptag="ui_edit" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="1.0, 1.0, 1.0">
+			<texture filename="ui_edit.png" name="ui_edit (Image)" uvindex="0" uvname="Texture" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material (26)" ptag="ui_2d3d" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="1.0, 1.0, 1.0">
+			<texture filename="ui_2d3d.png" name="ui_2d3d (Image)" uvindex="0" uvname="Texture" wrapU="1.0" wrapV="1.0"/>
+		</property>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity Material (17)" ptag="windowframe" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="0.04430379718542099, 0.04430379718542099, 0.04430379718542099"/>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+</catalog>

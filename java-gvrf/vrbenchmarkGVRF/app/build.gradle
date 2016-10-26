@@ -1,0 +1,89 @@
+apply plugin: 'com.android.application'
+import java.util.regex.Matcher
+import java.util.regex.Pattern
+
+
+repositories {
+   flatDir {
+        dirs '../../../../GearVRf-Demos/gearvrf-libs',  '../../../../GearVRf/GVRf/Framework/framework/build/outputs/aar'
+    }
+}
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.samsung.mps.java.gvrf.vrbenchmark"
+        minSdkVersion 19
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+        hybrid {
+            applicationId = "com.samsung.mps.java.gvrf.hybrid.vrbenchmark"
+            resValue "string", "app_name", "VRBenchMarkGVRFHybrid"
+        }
+        pure {
+            applicationId = "com.samsung.mps.java.gvrf.pure.vrbenchmark"
+            resValue "string", "app_name", "VRBenchMarkGVRFPure"
+        }
+    }
+
+    /*task checkFramework {
+        doFirst {
+            def gvrf_backend = "backend_oculus"
+            if (rootProject.hasProperty("GVRF_BACKEND")) {
+                gvrf_backend = rootProject.property("GVRF_BACKEND")
+            }
+
+            // Find Flavor (couldn't find a easier way)
+            def flavor
+            Gradle gradle = getGradle()
+            String  tskReqStr = gradle.getStartParameter().getTaskRequests().toString()
+
+            Pattern pattern;
+
+            if( tskReqStr.contains( "assemble" ) )
+                pattern = Pattern.compile("assemble(\\w+)(Release|Debug)")
+            else
+                pattern = Pattern.compile("generate(\\w+)(Release|Debug)")
+
+            Matcher matcher = pattern.matcher( tskReqStr )
+
+            if( matcher.find() ) {
+                flavor = matcher.group(1).toLowerCase()
+            }
+            else
+            {
+                flavor = "";
+            }
+            if (gvrf_backend == "backend_pure" && flavor != "pure"
+                    || gvrf_backend == "backend_oculus" && flavor != "hybrid") {
+                throw new GradleException("Wrong framework")
+            }
+        }
+
+    }
+
+    tasks.withType(JavaCompile) {
+        compileTask -> compileTask.dependsOn checkFramework
+    }*/
+}
+
+dependencies {
+    compile(name: 'framework-debug', ext: 'aar')
+    //pure
+  //  compile(name: 'backend-debug', ext: 'aar')
+
+    //oculus
+    compile(name: 'backend_oculus-debug', ext: 'aar')
+   /* compile(name: 'google-vr-base', ext: 'aar')
+    compile(name: 'google-vr-common', ext: 'aar')*/
+}
